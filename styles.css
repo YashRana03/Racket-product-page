@@ -28,6 +28,7 @@ nav {
   padding: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  z-index: 999;
   
 }
 
@@ -128,8 +129,7 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   
-  
-  
+
 
 }
 
@@ -143,6 +143,10 @@ input::placeholder {
   
 }
 
+.abc {
+  position: relative;
+  left: 10px;
+}
 
 .icons {
   
@@ -335,3 +339,6 @@ footer {
     width: 90%;
   }
 }
+
+
+
